@@ -15,7 +15,8 @@ class plotComplexity:
 
 		for _ in range(int(len(sorted_number)/step_size)):
 			start_time = time.clock()
-			x = linear_search(sorted_number, sorted_number[-1])
+			#x = linear_search(sorted_number, sorted_number[-1])
+			x = binary_search(sorted_number, sorted_number[-1])
 			end_time = time.clock()
 			time_taken[len(sorted_number)] = end_time - start_time
 			sorted_number = sorted_number[step_size:]
