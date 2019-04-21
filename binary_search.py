@@ -1,4 +1,4 @@
-def binary_search(arr,num):
+def binary_search(array,num):
 	firstIndex = 0
 	lastIndex = len(array)-1
 	found = False
